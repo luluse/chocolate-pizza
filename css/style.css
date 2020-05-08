@@ -1,0 +1,77 @@
+
+body{
+
+  width: 960px;
+  margin: auto;
+  padding: 0px;
+}
+
+.social-container{
+  float: right;
+
+
+}
+
+.logo{
+  float: left;
+  margin-right: 7px;
+}
+
+.divider{
+  background-image: url(/images/hr-img.png);
+  background-repeat: repeat-x;
+  width: 960px;
+  position: relative;
+  margin-top: 40px;
+
+}
+
+#main-pic{
+  width: 960px;
+
+}
+
+#main-title{
+  padding: 50px 0px 30px 0px;
+}
+
+#print-button{
+  float: right;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  text-transform: uppercase;
+  color: grey;
+}
+
+h1{
+  font-size: 3em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+h2{
+font-family: 'Pacifico', cursive;
+font-size: 2em;
+font-style: italic;
+
+}
+
+h3, h4{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  color: grey;
+}
+
+
+
+header{
+  margin-top: 20px;
+}
+
+#pint{
+  padding-right: 10px;
+
+}
+
+
+
