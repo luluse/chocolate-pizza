@@ -8,8 +8,6 @@ body{
 
 .social-container{
   float: right;
-
-
 }
 
 .logo{
@@ -17,11 +15,12 @@ body{
   margin-right: 7px;
 }
 
-.divider{
+.divider p{
   background-image: url(/images/hr-img.png);
   background-repeat: repeat-x;
+  background-size: 10px;
   width: 960px;
-  position: relative;
+  /* position: relative; */
   margin-top: 40px;
 
 }
@@ -62,10 +61,9 @@ h3, h4{
   color: grey;
 }
 
-
-
 header{
   margin-top: 20px;
+  display: inline-block;
 }
 
 #pint{
@@ -92,6 +90,55 @@ ul{
 
 #ingredients{
   position: absolute;
-  top: 1300px;
+  top: 1350px; 
+}
+h5{
+  font-size: 20px;
+}
+
+/* footer p{
+  font-size: 15px;
+} */
+
+/* footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.bottomWrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#profilePic{
+  float: left;
+  padding-right: 20px;
+}
+
+#shareButton{
+  /* float: right; */
+  left: 400px;
+  padding: 20px;
+  font-size: 15px;
+  background-color: chocolate;
+  text-align: center;
+  color: white;
+}
+
+.author{
+  padding-right: 200px;
+  color:  grey
+}
+
+#authorDescription {
+  padding-bottom: 10px;
+}
+#smallLogo{
+  
+}
+
+#rights{
+  align-content:
   
 }
